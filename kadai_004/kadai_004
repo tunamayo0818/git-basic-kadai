@@ -1,0 +1,24 @@
+PS C:\kadai> mkdir git_challenge
+
+
+    ディレクトリ: C:\kadai
+
+
+Mode                 LastWriteTime         Length
+----                 -------------         ------
+d-----        2023/09/30     17:51
+PS C:\kadai> cd git_challenge
+PS C:\kadai\git_challenge> git init
+Initialized empty Git repository in C:/kadai/git_challenge/.git/
+PS C:\kadai\git_challenge> git add hello_world.txt
+PS C:\kadai\git_challenge> git commit -m "hello_world.txtを追加"          
+[main (root-commit) b14f072] hello_world.txtを追加
+ create mode 100644 hello_world.txt
+PS C:\kadai\git_challenge> git add hello_world.txt
+PS C:\kadai\git_challenge> git commit -m "日本語訳の追記"
+[main bbcd63e] 日本語訳の追記
+ 1 file changed, 2 insertions(+), 1 deletion(-)
+PS C:\kadai\git_challenge> git log --oneline
+
+bbcd63e (HEAD -> main) 日本語訳の追記
+b14f072 hello_world.txtを追加
